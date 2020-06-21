@@ -45,6 +45,14 @@ body {
 }
 .social-icon {
     margin: 0.5em 0.5em;
+    color: black;
+    display: inline-block;
+}
+
+.social-icon:hover {
+    opacity: 0.7;
+    color: #007bff;   
+    text-align: center;
 }
 
 /* Carousel */
@@ -69,3 +77,4 @@ img {
 .arrow {
     filter: invert(1);
 }
+
