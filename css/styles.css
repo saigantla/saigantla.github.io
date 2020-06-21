@@ -38,6 +38,10 @@ body {
     font-family: "Staatliches";
 }
 
+.navbar-toggler {
+    width: 100%;
+}
+
 
 
 
@@ -71,20 +75,41 @@ a:visited{ color: gray }
 
 /* Carousel */
 
+
+#mobile-title {
+    font-family: "Rubik";
+    text-align: center;
+    display: none;
+    padding: 25% 0;
+}
+
+@media (max-width:641px) {
+    img {
+        display: none;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    #mobile-title {
+        display: block;
+    }
+
+}
+
 img {
     border: 5px solid;
 }
 
 .carousel-inner {
     height: 75vh;
-    width: 100vw;
     margin: 0 auto;
     text-align: center;
 }
 
  img {
      height: 75vh;
-     width: 100wh;
  }
 
 
