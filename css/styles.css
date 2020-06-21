@@ -3,6 +3,8 @@ body {
     font-family: "Rubik";
 }
 
+
+
 /* Navigation Bar */
 
 .navbar-nav {
@@ -88,5 +90,16 @@ img {
 
 .arrow {
     filter: invert(1);
+}
+
+.carousel-caption h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 3.5em;
+}
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2em;
 }
 
