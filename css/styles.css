@@ -86,7 +86,7 @@ a:visited{ color: gray }
     padding: 20% 0;
 }
 
-@media (max-width:641px) {
+@media (max-width:1000px) {
     img {
         display: none;
     }
