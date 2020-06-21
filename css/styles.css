@@ -135,15 +135,21 @@ img {
     filter: invert(1);
 }
 
-.carousel-caption h2:hover {
+#paragraph-cs {
     color: #007bff;
-    
+    text-shadow: 3px 3px blue;
 }
 
-.carousel-caption p:hover {
+#paragraph-nature {
     color: #007bff;
-    
+    text-shadow: 3px 3px blue;
 }
+
+#paragraph-reading {
+    color: #007bff;
+    text-shadow: 3px 3px blue;
+}
+
 
 .carousel-caption h2 {
     background-color: rgba(0, 0, 0, 0.5);
@@ -157,4 +163,5 @@ img {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 2em;
 }
+
 
