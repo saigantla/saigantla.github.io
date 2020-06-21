@@ -75,12 +75,15 @@ a:visited{ color: gray }
 
 /* Carousel */
 
+#sai-pic {
+    border: none;
+}
 
 #mobile-title {
     font-family: "Rubik";
     text-align: center;
     display: none;
-    padding: 25% 0;
+    padding: 20% 0;
 }
 
 @media (max-width:641px) {
@@ -94,6 +97,14 @@ a:visited{ color: gray }
 
     #mobile-title {
         display: block;
+    }
+
+    #sai-pic {
+        display: block;
+        width: 30%;
+        height: 30%;
+        margin: 0 auto;
+        padding-bottom: 5%;
     }
 
 }
