@@ -127,7 +127,7 @@ a:visited{ color: gray }
 }
 
 img {
-    border: 5px solid;
+    border: 0.2em solid;
     height: 75vh;
 }
 
@@ -188,7 +188,53 @@ img {
 .left-col {
     text-align: center;
 }
+
 .right-col {
-    text-align: center;
+    font-family: "Rubik";
+    line-height: 2.0;
 }
 
+.description {
+    text-align: left;
+    padding-right: 15rem;
+}
+
+.full-sai-pic {
+    border: 0.2em solid;
+}
+
+.mobile-row {
+    display: none;
+}
+
+.sai-circle {
+    border-radius: 50%;
+    height: 50vh;
+}
+
+
+@media (max-width:1000px) {
+    .left-col {
+        display: none;
+    }
+    
+    .right-col {
+        display: none;
+    }
+
+    .sai-circle {
+        display: inline-block;
+        margin: 5em 0;
+    }
+
+    .mobile-desc {
+        text-align: left;
+        padding: 0 5em;
+    }
+
+    .mobile-row {
+        display: block;
+        text-align: center;
+    }   
+    
+}
