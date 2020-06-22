@@ -187,11 +187,13 @@ img {
 
 .left-col {
     text-align: center;
+    display: block;
 }
 
 .right-col {
     font-family: "Rubik";
     line-height: 2.0;
+    display: block;
 }
 
 .description {
@@ -210,6 +212,8 @@ img {
 .sai-circle {
     border-radius: 50%;
     height: 50vh;
+    margin: 5em 0;
+    display: none;
 }
 
 
@@ -224,7 +228,6 @@ img {
 
     .sai-circle {
         display: inline-block;
-        margin: 5em 0;
     }
 
     .mobile-desc {
