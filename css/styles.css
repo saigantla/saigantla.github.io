@@ -238,3 +238,13 @@ img {
         text-align: center;
     }   
 }
+
+/* Contact Me */
+
+.form-container {
+    margin: 0 10rem;
+}
+
+.contact-button-container {
+    text-align: center!important;
+}
