@@ -1,7 +1,12 @@
 body {
     background: #f5f5f5;
     font-family: "Rubik";
-    overflow: hidden;
+}
+
+@media (min-width: 1000px) {
+    body {
+        overflow: hidden;
+    }
 }
 
 /* Navigation Bar */
@@ -247,4 +252,9 @@ img {
 
 .contact-button-container {
     text-align: center!important;
+}
+
+.disclaimer {
+    padding-right: 25%;
+    padding-left: 25%;  
 }
