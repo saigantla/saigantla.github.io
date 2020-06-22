@@ -132,14 +132,16 @@
 
     <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
-    <h6 class="text-danger text-center disclaimer">Disclaimer: Due to Github Pages's lack of support for PHP scripts, I am using the third party Formspree to enable this contact form. All information entered is processed by them. If this makes you uncomfortable, please send me a direct email using the one listed in my resume. Thanks.</h6>
+    <h6 class="text-info text-center disclaimer">Disclaimer: Due to <a class="text-danger" href="https://help.github.com/en/github/working-with-github-pages/about-github-pages#about-github-pages">
+      Github Pages's lack of support for PHP scripts
+    </a>, I am using the third party Formspree to enable this contact form. All information entered is processed by them. If this makes you uncomfortable, please send me a direct email using the one listed in my resume. Thanks.</h6>
     <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.
+    <p class="text-center w-responsive mx-auto mb-5 disclaimer">Do you have any questions? Please do not hesitate to contact me directly.
     </p>
 
         <!--Grid column-->
         <div class="form-container mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="https://formspree.io/mzbjvyqa" method="post">
+            <form id="contact-form" name="contact-form" action="https://formspree.io/mzbjvyqa" method="POST" onsubmit="return validateForm();">
                 <!--Grid row-->
                 <div class="row">
 
@@ -191,7 +193,7 @@
                 <!--Grid row-->
 
                 <div class="contact-button-container text-center text-md-left">
-                  <button type="submit" class="contact-button btn btn-primary" onclick="validateForm()">Send</a>
+                  <button type="submit" class="contact-button btn btn-primary">Send</a>
               </div>
             </form>
 
