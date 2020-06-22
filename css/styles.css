@@ -1,22 +1,18 @@
 body {
     background: #f5f5f5;
     font-family: "Rubik";
+    overflow: hidden;
 }
-
-
 
 /* Navigation Bar */
 .dropdown-menu {
     margin: 0;
-
 }
 
 .navbar-nav {
     margin: 0 auto;
     float: none;
     text-align: center;
-    
-    
 }
 
 .dropdown {
@@ -156,7 +152,7 @@ img {
     text-shadow: 3px 3px blue;
 }
 
-.love {
+.enjoy {
     font-family: "Indie Flower";
 }
 
@@ -194,6 +190,7 @@ img {
     font-family: "Rubik";
     line-height: 2.0;
     display: block;
+    margin: auto 0;
 }
 
 .description {
@@ -239,5 +236,4 @@ img {
         display: block;
         text-align: center;
     }   
-    
 }
