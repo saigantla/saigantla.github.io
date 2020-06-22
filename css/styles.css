@@ -200,6 +200,7 @@ img {
 
 .full-sai-pic {
     border: 0.2em solid;
+    border-radius: 1%;
 }
 
 .mobile-row {
