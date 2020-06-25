@@ -3,7 +3,7 @@ body {
     font-family: "Rubik";
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1500px) {
     body {
         overflow: hidden;
     }
@@ -187,7 +187,7 @@ img {
 /* About Me */
 
 .left-col {
-    text-align: center;
+    text-align: right;
     display: block;
 }
 
@@ -199,8 +199,9 @@ img {
 }
 
 .description {
-    text-align: left;
+    text-align: center;
     padding-right: 15rem;
+    width: 80%;
 }
 
 .full-sai-pic {
@@ -220,7 +221,7 @@ img {
 }
 
 
-@media (max-width:1000px) {
+@media (max-width:1500px) {
     .left-col {
         display: none;
     }
