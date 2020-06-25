@@ -1,12 +1,8 @@
 body {
     background: #f5f5f5;
     font-family: "Rubik";
-}
-
-@media (min-width: 1500px) {
-    body {
-        overflow: hidden;
-    }
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* Navigation Bar */
@@ -127,7 +123,7 @@ a:visited{ color: gray }
     }
 }
 
-img {
+.title-images {
     border: 0.2em solid;
     height: 75vh;
 }
@@ -259,3 +255,15 @@ img {
     padding-right: 25%;
     padding-left: 25%;  
 }
+
+/* Projects */
+
+.project-card {
+    padding: 2% 3%;
+}
+
+.card-img-top {
+    border: 0.2em solid;
+    border-bottom: 0em;
+}
+
