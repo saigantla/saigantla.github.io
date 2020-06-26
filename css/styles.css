@@ -3,6 +3,7 @@ body {
     font-family: "Rubik";
     overflow-x: hidden;
     overflow-y: auto;
+    position: relative;
 }
 
 /* Navigation Bar */
@@ -105,10 +106,6 @@ a:visited{ color: gray }
 }
 
 @media (max-width:1000px) {
-    img {
-        display: none;
-    }
-
     .carousel {
         display: none;
     }
@@ -276,7 +273,17 @@ a:visited{ color: gray }
     padding-left: 25%;  
 }
 
+.email-pic {
+    width: 15em;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Projects */
+
+.hidden-project-title {
+    display: none;
+}
 
 .project-card {
     padding: 2% 3%;
@@ -312,6 +319,13 @@ a:visited{ color: gray }
         display: block;
         margin: 5em;
     }
+
+    .hidden-project-title {
+        display: block!important;
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+    
 }
 
 
