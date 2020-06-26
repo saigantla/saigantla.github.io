@@ -273,10 +273,20 @@ a:visited{ color: gray }
     padding-left: 25%;  
 }
 
-.email-pic {
+.email-pic-div {
+    background-color: black;
     width: 15em;
     display: block;
-    margin: 0 auto;
+    margin: 1em auto;
+}
+
+.email-pic {
+    width: 15em;
+    opacity: 0;
+}
+
+.email-pic:hover {
+    opacity: 1;
 }
 
 /* Projects */
