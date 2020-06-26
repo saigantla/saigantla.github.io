@@ -6,6 +6,9 @@ body {
 }
 
 /* Navigation Bar */
+.title {
+    text-align: center;
+}
 .dropdown-menu {
     margin: 0;
 }
@@ -157,10 +160,12 @@ a:visited{ color: gray }
     font-family: "Rubik";
 }
 
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 
 }
+
 
 
 .carousel-caption h2 {
@@ -199,13 +204,14 @@ a:visited{ color: gray }
 .left-col {
     text-align: right;
     display: block;
+    padding-right: 2.5em;
 }
 
 .right-col {
-    font-family: "Rubik";
     line-height: 2.0;
     display: block;
     margin: auto 0;
+    padding-left: 2.5em;
 }
 
 .description {
@@ -306,4 +312,29 @@ a:visited{ color: gray }
         display: block;
         margin: 5em;
     }
+}
+
+
+/* CCA Courses */
+
+.courses-row li {
+    font-size: 1.5em;
+    padding: 0 2em;
+}
+
+.course-title {
+    padding-bottom: 1em;
+    padding-top: 0.24em;
+}
+
+.back-sign {
+    padding-left: 0.5em;
+}
+
+.inline-back-arrow {
+    display: inline-block;
+}
+
+.fa-arrow-left:hover {
+    color: black;
 }
