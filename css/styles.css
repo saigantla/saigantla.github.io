@@ -174,20 +174,24 @@ a:visited{ color: gray }
 
 .welcome {
     padding-right: 0;
-
 }
 
 .carousel-caption p {
     font-size: 2em;
 }
 
-
 .hidden-welcome {
-    display: none;
+    font-size: 0px;
 }
 
-.carousel-caption:hover + .hidden-welcome {
-    display: visible!important;
+.carousel-caption:hover .total-disp {
+    display: none!important;
+}
+
+.carousel-caption:hover .hidden-welcome {
+    font-size: 6.825em;
+    font-family: "Staatliches";
+    color: #f5f5f5;
 }
 
 /* About Me */
