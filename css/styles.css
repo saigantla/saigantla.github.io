@@ -10,9 +10,6 @@ body {
 .title {
     text-align: center;
 }
-.dropdown-menu {
-    margin: 0;
-}
 
 .navbar-nav {
     margin: 0 auto;
@@ -21,7 +18,7 @@ body {
 }
 
 .dropdown {
-    height: 5.7rem;
+    height: 7rem;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -33,11 +30,10 @@ body {
 
 .navbar-brand {
     margin-left: 1rem;
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: "Staatliches";
     
 }
-
 
 
 .nav-item {
@@ -48,13 +44,13 @@ body {
 
 .nav-link {
     padding-top: 0.5em;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Staatliches";    
 }
 
 .dropdown-item {
     font-family: "Staatliches";
-    font-size: 1.2s5rem;
+    font-size: 1.5rem;
 }
 
 .navbar-toggler {
