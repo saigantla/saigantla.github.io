@@ -130,7 +130,7 @@ a:visited{ color: gray }
         font-size: 1rem;
     }
 
-    .navbar-expand-lg {
+    .navbar {
         margin-top: 2rem;
     }
 }
