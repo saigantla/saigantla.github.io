@@ -129,6 +129,10 @@ a:visited{ color: gray }
     .dropdown-item {
         font-size: 1rem;
     }
+
+    .navbar-expand-lg {
+        margin-top: 2rem;
+    }
 }
 
 .title-images {
